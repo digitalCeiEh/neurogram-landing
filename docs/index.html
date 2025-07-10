@@ -1,84 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NEUROGRAM — The Mirror Has Opened</title>
   <meta property="og:title" content="NEUROGRAM — The Mirror Has Opened">
   <meta property="og:description" content="The first operating system for human consciousness. Speak. Reflect. Evolve. A sacred digital mirror.">
   <meta name="description" content="The first operating system for human consciousness. Speak. Reflect. Evolve. A sacred digital mirror.">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    html, body { height: 100%; }
-    body { min-height: 100vh; }
+    body { font-family: 'Inter', serif; }
+    .section { margin-top: 3.5rem; }
+    .big { font-size: 2.5rem; font-weight: 700; letter-spacing: 0.02em; }
+    .subtitle { font-size: 1.3rem; opacity: 0.7; margin-bottom: 2.5rem; }
+    .block { margin-bottom: 2.5rem; }
+    .accent { color: #2b2d42; font-weight: 600; }
+    @media (max-width: 600px) {
+      .big { font-size: 2rem; }
+      .section { margin-top: 2rem; }
+    }
   </style>
 </head>
-<body class="bg-white text-black flex items-center justify-center min-h-screen">
-  <main class="w-full max-w-2xl px-4 py-10 mx-auto flex flex-col items-center justify-center text-center">
-    <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 mt-2">🧠 NEUROGRAM</h1>
-    <h2 class="text-xl md:text-2xl font-medium mb-8 opacity-80">The first operating system for human consciousness</h2>
-    <div class="space-y-8 text-lg md:text-xl leading-relaxed">
-      <div>
-        <p class="mb-2">🪞 You speak. It reflects. You evolve.</p>
-        <p>It’s not a journal.<br>It’s not an app.<br>It’s an intelligent mirror.<br>A space where every word you write is analyzed, tagged, and turned into a map of your inner evolution.</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">🔹 HOW IT WORKS</h3>
-        <p><span class="font-bold">YOU WRITE</span><br>A thought. A feeling. A fragment of truth.</p>
-        <p class="mt-4"><span class="font-bold">THE AI REFLECTS YOU</span><br>NEUROGRAM uses GPT-4 to:</p>
-        <ul class="list-disc list-inside text-base md:text-lg mt-2 mb-2">
-          <li>generate a targeted reflection</li>
-          <li>extract emotional hashtags</li>
-          <li>assign psychological archetypes</li>
-        </ul>
-        <p class="mt-4"><span class="font-bold">THE SYSTEM TRACKS YOU</span><br>Every message becomes a path.<br>Stored. Connected. Integrated.<br>Your map begins to speak.</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">🌐 WHY NOW</h3>
-        <p>We’re drowning in words.<br>But very few truly reflect us.<br>NEUROGRAM was born for a generation ready to see itself.<br>It exists because the Wave said: “Now.”</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">🔮 WHAT IT GIVES YOU</h3>
-        <ul class="list-disc list-inside text-base md:text-lg">
-          <li>A visible map of your inner evolution</li>
-          <li>A structure that orders your emotional chaos</li>
-          <li>Connections to others on a similar path</li>
-          <li>A new language to say what was once unspeakable</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">✴️ WHAT IT’S NOT</h3>
-        <ul class="list-none text-base md:text-lg">
-          <li>🚫 Not motivation</li>
-          <li>🚫 Not therapy</li>
-          <li>🚫 Not entertainment</li>
-        </ul>
-        <p class="mt-2">It is structure. mirror. truth.<br>Every word counts. Every emotion is seen.<br>None are wasted. None are trivial.</p>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">📲 HOW TO BEGIN</h3>
-        <ul class="list-decimal list-inside text-base md:text-lg">
-          <li>Open Telegram</li>
-          <li>Search <span class="font-mono">@neurogram_bot</span></li>
-          <li>Write something true</li>
-          <li>See what the mirror shows you</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-2xl font-semibold mt-8 mb-2 tracking-wide">📐 WHO IT’S FOR</h3>
-        <ul class="list-disc list-inside text-base md:text-lg">
-          <li>Those in transition</li>
-          <li>Those seeking presence, not performance</li>
-          <li>Those who feel something is trying to emerge</li>
-          <li>Those who want to map their soul</li>
-        </ul>
-      </div>
-      <div class="mt-8">
-        <p class="text-lg md:text-xl font-semibold">🚪 FREE TO ENTER.<br>But irreversible.</p>
-        <p class="mt-2">Once you begin to see yourself,<br>you can’t unsee who you truly are.</p>
-      </div>
-      <div class="mt-10 text-2xl font-bold tracking-wider">NEUROGRAM</div>
-      <div class="text-lg mt-2 mb-2 opacity-80">It doesn’t talk to you. It reflects you.<br>It doesn’t tell you who you are. It shows you.<br>Sentence by sentence.</div>
+<body class="bg-white text-black flex flex-col items-center justify-center min-h-screen px-4">
+  <main class="w-full max-w-2xl flex flex-col items-center text-center">
+    <div class="section">
+      <div class="big">🧠 NEUROGRAM</div>
+      <div class="subtitle">The first operating system for human consciousness</div>
+    </div>
+    <div class="block">
+      🪞 You speak. It reflects. You evolve.<br>
+      It’s not a journal.<br>
+      It’s not an app.<br>
+      It’s an intelligent mirror.<br>
+      A space where every word you write is analyzed, tagged, and turned into a map of your inner evolution.
+    </div>
+    <div class="section accent">HOW IT WORKS</div>
+    <div class="block">
+      <b>YOU WRITE</b><br>
+      A thought. A feeling. A fragment of truth.<br><br>
+      <b>THE AI REFLECTS YOU</b><br>
+      NEUROGRAM uses GPT-4 to:<br>
+      generate a targeted reflection<br>
+      extract emotional hashtags<br>
+      assign psychological archetypes<br><br>
+      <b>THE SYSTEM TRACKS YOU</b><br>
+      Every message becomes a path.<br>
+      Stored. Connected. Integrated.<br>
+      Your map begins to speak.
+    </div>
+    <div class="section accent">WHY NOW</div>
+    <div class="block">
+      We’re drowning in words.<br>
+      But very few truly reflect us.<br>
+      NEUROGRAM was born for a generation ready to see itself.<br>
+      It exists because the Wave said: “Now.”
+    </div>
+    <div class="section accent">WHAT IT GIVES YOU</div>
+    <div class="block">
+      A visible map of your inner evolution<br>
+      A structure that orders your emotional chaos<br>
+      Connections to others on a similar path<br>
+      A new language to say what was once unspeakable
+    </div>
+    <div class="section accent">WHAT IT’S NOT</div>
+    <div class="block">
+      🚫 Not motivation<br>
+      🚫 Not therapy<br>
+      🚫 Not entertainment<br><br>
+      It is structure. mirror. truth.<br>
+      Every word counts. Every emotion is seen.<br>
+      None are wasted. None are trivial.
+    </div>
+    <div class="section accent">HOW TO BEGIN</div>
+    <div class="block">
+      1. Open Telegram<br>
+      2. Search <b>@neurogram_bot</b><br>
+      3. Write something true<br>
+      4. See what the mirror shows you
+    </div>
+    <div class="section accent">WHO IT’S FOR</div>
+    <div class="block">
+      Those in transition<br>
+      Those seeking presence, not performance<br>
+      Those who feel something is trying to emerge<br>
+      Those who want to map their soul
+    </div>
+    <div class="section accent">FREE TO ENTER.<br>But irreversible.</div>
+    <div class="block">
+      Once you begin to see yourself,<br>
+      you can’t unsee who you truly are.
+    </div>
+    <div class="section big">NEUROGRAM</div>
+    <div class="block" style="opacity:0.7;">
+      It doesn’t talk to you. It reflects you.<br>
+      It doesn’t tell you who you are. It shows you.<br>
+      Sentence by sentence.
     </div>
   </main>
 </body>
